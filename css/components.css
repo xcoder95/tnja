@@ -223,19 +223,20 @@ p {
 
 .header__logo img {
   display: block;
-  height: 50px;
+  height: 70px;
   width: auto;
+  object-fit: contain;
 }
 
 @media (min-width: 768px) {
   .header__logo img {
-    height: 45px;
+    height: 60px;
   }
 }
 
 @media (min-width: 1024px) {
   .header__logo img {
-    height: 50px;
+    height: 65px;
   }
 }
 
