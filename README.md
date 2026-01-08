@@ -148,7 +148,7 @@ See `DESIGN_SYSTEM.md` for complete design specifications.
 - Blog opportunities (future): "Top Tech Issues in Albany", "Smart Home Tips for Troy Residents"
 
 **Call-to-Action Strategy:**
-- Primary: Phone call (518) 234-5678
+- Primary: Phone call (518) 528-8921
 - Secondary: Contact form submission
 - Mobile sticky CTA for easy calling
 - Multiple CTA placements per page
@@ -218,7 +218,7 @@ capital-district-tech/
 ### Pre-Launch Checklist
 
 #### Content
-- [ ] Replace placeholder phone number (518) 234-5678 with real number
+- [ ] Replace placeholder phone number (518) 528-8921 with real number
 - [ ] Update business address in footer and schema markup
 - [ ] Add real team member photos and names
 - [ ] Collect and add real customer testimonials
@@ -306,8 +306,8 @@ vercel --prod
 ### Domain Setup
 
 **Recommended Domain Options:**
-- capitaldistricttech.com
-- capitaldistricttechsupport.com
+- gettechninja.com
+- gettechninja.com
 - albanytechsupport.com
 - cdtechsupport.com
 
@@ -404,7 +404,7 @@ Edit `css/variables.css`:
 
 ### Updating Content
 
-1. **Phone Number:** Search and replace `(518) 234-5678` with actual number
+1. **Phone Number:** Search and replace `(518) 528-8921` with actual number
 2. **Business Name:** Search and replace `Capital District Tech Support`
 3. **Service Areas:** Update location lists in footer and service area section
 4. **Hours:** Update in footer and schema markup
@@ -551,7 +551,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = $_POST['phone'];
     $message = $_POST['message'];
 
-    $to = "support@capitaldistricttech.com";
+    $to = "support@gettechninja.com";
     $subject = "New Contact Form Submission";
 
     mail($to, $subject, $message);
@@ -604,8 +604,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ### Placeholder Content
 This website contains placeholder content including:
-- Phone number: (518) 234-5678
-- Email: support@capitaldistricttech.com
+- Phone number: (518) 528-8921
+- Email: support@gettechninja.com
 - Business address: 123 State Street, Albany, NY
 - Team member names and details
 - Customer testimonials
@@ -699,8 +699,8 @@ This website design is proprietary. All rights reserved.
 
 **For questions or support, contact:**
 Capital District Tech Support
-📞 (518) 234-5678
-✉️ support@capitaldistricttech.com
+📞 (518) 528-8921
+✉️ support@gettechninja.com
 
 ---
 

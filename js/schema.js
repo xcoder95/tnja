@@ -5,12 +5,12 @@ function generateLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://capitaldistricttech.com",
+    "@id": "https://gettechninja.com",
     "name": "Capital District Tech Support",
-    "image": "https://capitaldistricttech.com/images/logo.png",
+    "image": "https://gettechninja.com/images/logo.png",
     "description": "Professional tech support services for homes and businesses in Albany, Schenectady, Troy, and the Capital District of New York. Computer repair, virus removal, smart home setup, and more.",
-    "telephone": "+15182345678",
-    "email": "support@capitaldistricttech.com",
+    "telephone": "+15185288921",
+    "email": "support@gettechninja.com",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
@@ -25,7 +25,7 @@ function generateLocalBusinessSchema() {
       "latitude": "42.6526",
       "longitude": "-73.7562"
     },
-    "url": "https://capitaldistricttech.com",
+    "url": "https://gettechninja.com",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
