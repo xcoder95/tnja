@@ -6,9 +6,28 @@ function initMobileMenu() {
   const nav = document.querySelector('.nav');
 
   if (menuBtn && nav) {
-    menuBtn.addEventListener('click', () => {
+    // Toggle menu on button click
+    menuBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
       nav.classList.toggle('active');
       menuBtn.classList.toggle('active');
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!nav.contains(e.target) && !menuBtn.contains(e.target)) {
+        nav.classList.remove('active');
+        menuBtn.classList.remove('active');
+      }
+    });
+
+    // Close menu when clicking a link
+    const navLinks = nav.querySelectorAll('.nav__link');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('active');
+        menuBtn.classList.remove('active');
+      });
     });
   }
 }
