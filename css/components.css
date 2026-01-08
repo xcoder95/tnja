@@ -228,6 +228,13 @@ p {
   object-fit: contain;
 }
 
+/* Reduce logo size on very small screens */
+@media (max-width: 480px) {
+  .header__logo img {
+    height: 55px;
+  }
+}
+
 @media (min-width: 768px) {
   .header__logo img {
     height: 60px;
@@ -250,12 +257,30 @@ p {
   transition: color var(--transition-base);
 }
 
+/* Hide phone text on small mobile screens */
+@media (max-width: 480px) {
+  .header__phone span:not(.header__phone-icon) {
+    display: none;
+  }
+
+  .header__phone {
+    font-size: 28px;
+    padding: var(--space-2);
+  }
+}
+
 .header__phone:hover {
   color: var(--primary-blue-dark);
 }
 
 .header__phone-icon {
   font-size: 24px;
+}
+
+@media (max-width: 480px) {
+  .header__phone-icon {
+    font-size: 28px;
+  }
 }
 
 /* Navigation */
